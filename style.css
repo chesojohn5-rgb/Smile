@@ -168,7 +168,7 @@ border-radius: 10px;
 /* About */
 .about {
 padding: 60px 10%;
-background: #f8f8f8;
+background: black;
 text-align: center;
 }
 
@@ -336,4 +336,5 @@ margin: 8px 0;
     width: 100%;
 }
 }
+
 
