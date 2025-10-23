@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"
+content="width=device-width,
+initial-scale=1.0">
+<title>Friend with a Smile</title>
+<link rel="stylesheet"
+href="style.css">
+</head>
+<body>
+<!-- Navbar -->
+<header>
+<nav class="navbar">
+<div class="logo">
+    <img src="img/logo.jpg" alt="logo">
+    <h2>A friend With a smile</h2>
+</div>
+<div class="menu-toggle" id="menu-toggle">&#9776;</div>
+<ul class="nav-links" id="nav-links">
+<li><a
+href="index.html" class="active">Home</a></li>
+<li><a
+href="products.html">Products</a></li>
+<li><a
+href="about.html">About</a></li>
+<li><a
+href="contact.html">Contact</a></li>
+</ul>
+</nav>
+</header>
+
+<section class="hero">
+    <div class="hero-content">
+        <h1>Welcome to our Brand</h1>
+        <p>Creation Of Love, Poems, Poetry, music, Clothes, education, sport, Food and Cultural Diversity</p>
+        <a href="products.html" class="btn">View Items</a>
+    </div>
+</section>
+
+<!-- footer-->
+<footer>
+<p>&copy; 2025 Cheso Productions. All
+rights reserved .</p>
+</footer>
+<script>
+const menuToggle =
+document.getElementById("menu-toggle");
+const navLinks =
+document.getElementById("nav-links");
+
+menuToggle. addEventListener("click",
+() => {
+navLinks. classList.toggle("show");
+});
+</script>
+</body>
+</html>
+

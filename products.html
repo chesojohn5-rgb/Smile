@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width". initial-scale="1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+        <nav class="navbar">
+            <h1 class="logo">A friend With a Smile</h1>
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html" class="active">Products</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        </header>
+        <section class="Products">
+            <h2>Our Products</h2>
+            <div class="product-grid">
+            <div class="product-item">
+            <img src="img/logo.jpg" alt="logo 1">
+            <h3>Classic Shirt</h3>
+            <p>150.00</p>
+            </div>
+            <div class="product-item">
+            <img src="img/logo.jpg" alt="logo 2">
+            <h3>Modern Hoodie</h3>
+            <p>K250.00</p>
+            </div>
+            <div class="product-item">
+            <img src="img/logo.jpg" alt="logo 3">
+            <h3>Summer T-shirt</h3>
+            <p>K120.00</p>
+            </div>
+            </div>
+            </section>
+            <footer>
+                <p> 2025 Cheso Productions. All rights reserved</p>
+            </footer>
+            <script>
+const menuToggle =
+document.getElementById("menu-toggle");
+const navLinks =
+document.getElementById("nav-links");
+
+menuToggle. addEventListener("click",
+() => {
+navLinks. classList.toggle("show");
+});
+</script>
+    </body>
+</html>
