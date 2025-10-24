@@ -81,7 +81,7 @@ color: #f8f8f8;
 
 .btn {
 background: blue;
-color: wheat;
+color: white;
 padding: 10px 20px;
 border-radius: 5px;
 text-decoration: none;
@@ -89,7 +89,7 @@ transition: 0.3s;
 }
 .btn:hover {
 background: white;
-color: blue;
+color: yellow;
 }
 
 .products {
@@ -258,7 +258,7 @@ margin-top: 50px;
     .nav-links {
         display: none;
         flex-direction: column;
-        background: #007bff;
+        background: black;
         position: absolute;
         top: 60px;
         right: 0;
@@ -305,7 +305,7 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 padding: 15px 10%;
-background: #0a0a0a; /* or whatever
+background: black; /* or whatever
 background you used */
 }
 /* Responsive logo for mobile */
@@ -336,5 +336,6 @@ margin: 8px 0;
     width: 100%;
 }
 }
+
 
 
